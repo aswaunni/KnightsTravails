@@ -13,7 +13,6 @@ body {
 }
 
 .grid {
-    border: 1px solid grey;
     width: 100vw;
     display: grid;
     grid-template-rows: repeat(9, 1fr);
@@ -28,6 +27,8 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    width: 4vw;
+    height: 7vh;
 }
 
 .cell.black {
